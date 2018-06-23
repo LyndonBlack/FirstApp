@@ -1,9 +1,9 @@
 //
 //  ViewController.swift
-//  First app
+//  First app - Cont
 //
 //  Created by AppleCare Representative on 22/06/2018.
-//  Copyright © 2018 Mostlysane Design. All rights reserved.
+//  Copyright © 2018 Mostlysane Design. All rights reserved..
 //
 
 import UIKit
