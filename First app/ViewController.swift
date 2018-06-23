@@ -32,7 +32,7 @@ class ViewController: UIViewController {
                 
                 view.backgroundColor = UIColor.cyan
                 
-                MyLabel.text = "Who are you"
+                MyLabel.text = "Who are you?"
                 
             }
             
