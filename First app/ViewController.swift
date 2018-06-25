@@ -1,10 +1,10 @@
-// Having fun
+
 //  ViewController.swift
 //  First app - Cont
 //
 //  Created by AppleCare Representative on 22/06/2018.
 //  Copyright © 2018 Mostlysane Design. All rights reserved..
-//
+
 
 import UIKit
 
@@ -14,9 +14,44 @@ class ViewController: UIViewController {
     
     @IBOutlet weak var MyLabel: UILabel!
     
+    @IBOutlet weak var toptext: UITextField!
+    
+    @IBOutlet weak var bottomtext: UITextField!
+    
+    @IBOutlet weak var AddSwitch: UISwitch!
+    
     @IBAction func Button1(_ sender: Any) {
         
-        count = count + 1
+        
+        let addition = AddSwitch.isOn
+        
+        if addition {
+            
+            let sum = Double(toptext.text!)! + Double(bottomtext.text!)!
+            MyLabel.text = "\(toptext.text!) + \(bottomtext.text!) = \(sum)"
+            
+        } else {
+            
+            let sum = Double(toptext.text!)! - Double(bottomtext.text!)!
+            MyLabel.text = "\(toptext.text!) - \(bottomtext.text!) = \(sum)"
+            
+        }
+        
+        
+        
+        
+        // let sum = Double(toptext.text!)! + Double(bottomtext.text!)!
+        
+       // MyLabel.text = sentence
+        
+       
+        
+/*     print(toptext.text!)
+
+    print(bottomtext.text!)
+*/
+        
+ /*       count += 1
         
         print(count)
         
@@ -37,7 +72,7 @@ class ViewController: UIViewController {
             }
             
     }
-        
+*/
     }
     
     
